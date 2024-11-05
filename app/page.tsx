@@ -1,7 +1,11 @@
+import LoginBtn from "@/components/login-btn";
+
 const Home = () => {
-  return ( 
-    <h1>Opa</h1>
-   );
-}
- 
+  return (
+    <main className="h-screen">
+      <LoginBtn />
+    </main>
+  );
+};
+
 export default Home;
